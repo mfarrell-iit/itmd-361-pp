@@ -1,5 +1,6 @@
-$(document).ready(
-  function() {
+$.noConflict();
+jQuery(document).ready(
+  function($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
 
